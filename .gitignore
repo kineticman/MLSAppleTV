@@ -5,3 +5,10 @@ out/
 .DS_Store
 .idea/
 .vscode/
+__pycache__/
+*.pyc
+out/
+.venv/
+.DS_Store
+.idea/
+.vscode/
