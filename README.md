@@ -15,11 +15,11 @@ Scrape MLS schedule data from Apple TV and generate a simple **M3U** + **XMLTV**
 > Prereqs: Docker and Docker Compose.
 
 ```bash
-git clone https://github.com/kineticman/MLSDeeplink.git
-cd MLSDeeplink
+git clone https://github.com/kineticman/MLSAppleTV.git
+cd MLSAppleTV
 
 # Choose your settings (override as you like)
-export HOST_PORT=8096        # host port exposed by Compose
+export HOST_PORT=80           # host port exposed by Compose
 export PORT=8096             # internal NGINX port inside the container
 export TZ=America/New_York   # container timezone
 export RUN_AT=04:17          # daily time (HH:MM) in TZ
