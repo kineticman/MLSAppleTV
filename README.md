@@ -15,8 +15,8 @@ Scrape MLS schedule data from Apple TV and generate a simple **M3U** + **XMLTV**
 > Prereqs: Docker and Docker Compose.
 
 ```bash
-git clone https://github.com/kineticman/MLSAppleTV.git
-cd MLSAppleTV
+git clone https://github.com/kineticman/MLSDeeplink.git
+cd MLSDeeplink
 
 # Choose your settings (override as you like)
 export HOST_PORT=80           # host port exposed by Compose

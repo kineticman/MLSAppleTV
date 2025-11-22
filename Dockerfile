@@ -1,4 +1,4 @@
-# MLSAppleTV: NGINX + daily runner (no cron)
+# MLSDeeplink: NGINX + daily runner (no cron)
 FROM python:3.11-slim
 
 # Keep Python output unbuffered and avoid .pyc
